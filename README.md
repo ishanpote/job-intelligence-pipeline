@@ -72,34 +72,6 @@ The processed record is stored in Supabase PostgreSQL.
 
 The React dashboard then retrieves the stored data and presents analytical insights.
 
-## Project Overview
-
-The pipeline is designed to automate the processing of job-related data.
-
-A job is initially provided as a JSON file containing information such as:
-
-```json
-{
-  "job_title": "AI Engineer",
-  "location": "Bangalore",
-  "skills": "Python, TensorFlow, PyTorch"
-}
-```
-
-Apache NiFi processes the file and performs:
-
-- JSON ingestion
-- JSON field extraction
-- Job classification
-- Attribute management
-- Data transformation
-- CSV record preparation
-- Database insertion
-
-The processed record is stored in Supabase PostgreSQL.
-
-The React dashboard then retrieves the stored data and presents analytical insights.
-
 ## Data Pipeline
 
 ### 1. Job Input
