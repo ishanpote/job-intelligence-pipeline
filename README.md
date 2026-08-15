@@ -6,6 +6,10 @@ The system automatically processes job data supplied as JSON files, extracts rel
 
 ---
 
+## Live Demo
+
+🌐 **[Open the Job Intelligence Dashboard](https://job-intelligence-pipeline.vercel.app/)**
+
 ## Architecture
 
 ```text
