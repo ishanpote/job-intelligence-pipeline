@@ -392,6 +392,34 @@ The main workflow is:
 
 **Ingest → Extract → Classify → Transform → Store → Analyze → Visualize**
 
+---
+
+## Screenshots
+
+### Apache NiFi ETL Pipeline
+
+The complete Apache NiFi pipeline processes incoming job data, classifies records by category, stores them in PostgreSQL, and routes the final files to category-specific output folders.
+
+![Apache NiFi ETL Pipeline](screenshots/nifi-pipeline.png)
+
+### Supabase PostgreSQL Database
+
+Processed job records are stored in a PostgreSQL database hosted on Supabase.
+
+![Supabase Database](screenshots/supabase-database.png)
+
+### Job Intelligence Dashboard — Overview
+
+The dashboard provides real-time job counts, category distribution, and location-based analytics.
+
+![Dashboard Overview](screenshots/dashboard-overview.png)
+
+### Job Intelligence Dashboard — Skills & Recent Jobs
+
+The dashboard also provides skill-demand analysis and a searchable list of recently processed jobs.
+
+![Dashboard Jobs](screenshots/dashboard-jobs.png)
+
 ## Author
 
 **Ishan Pote**
