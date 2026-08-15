@@ -26,22 +26,22 @@ The system automatically processes job data supplied as JSON files, extracts rel
               Python     SQL     Other
                  │        │        │
                  ▼        ▼        ▼
-          UpdateAttribute
-                 │
-                 ▼
-             ReplaceText
-                 │
-                 ▼
-         PutDatabaseRecord
-                 │
-                 ▼
-       Supabase PostgreSQL
-                 │
-                 ▼
-          Analytics Views
-                 │
-                 ▼
-          React Dashboard
+                  UpdateAttribute
+                         │
+                         ▼
+                   ReplaceText
+                         │
+                         ▼
+                 PutDatabaseRecord
+                         │
+                         ▼
+                 Supabase PostgreSQL
+                         │
+                         ▼
+                  Analytics Views
+                         │
+                         ▼
+                  React Dashboard
 ```
 
 ## Project Overview
